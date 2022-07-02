@@ -9,7 +9,7 @@ def hello_world():
     return "Hello,world"
 
 
-@app.route("/nember")
+@app.route("/menber")
 def hello_menber():
     return "Hello,Menber"
 
