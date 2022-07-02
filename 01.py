@@ -6,7 +6,12 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "Hello,World"
+    return "Hello,world"
+
+
+@app.route("/nember")
+def hello_menber():
+    return "Hello,Menber"
 
 
 @app.route("/owner")
